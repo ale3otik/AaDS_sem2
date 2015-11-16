@@ -1,0 +1,54 @@
+﻿Сборка начата 30.03.2015 14:32:18.
+     1>Проект "C:\Users\Alex\Documents\Visual Studio 2013\Projects\MIPT.HW\2_SEM\Task 1\4.suggester\4.suggester\4.suggester.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt interface.cpp RangeTree.hpp Suggest.cpp
+         RangeTree.hpp
+         interface.cpp
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\interface.cpp(28): warning C4018: <: несоответствие типов со знаком и без знака
+         Создание кода...
+         Компиляция...
+         Suggest.cpp
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(47): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(52): warning C4018: >=: несоответствие типов со знаком и без знака
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(61): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(93): warning C4244: аргумент: преобразование "__int64" в "size_t", возможна потеря данных
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(113): warning C4244: аргумент: преобразование "__int64" в "size_t", возможна потеря данных
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(131): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(138): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(160): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\rangetree.hpp(146): warning C4244: аргумент: преобразование "__int64" в "unsigned int", возможна потеря данных
+                 c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\rangetree.hpp(122): при компиляции функции-члена "void RangeTree<int>::CreateTree(std::vector<int,std::allocator<_Ty>> *)" класса шаблон
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\rangetree.hpp(161): см. ссылку на создание экземпляров функции шаблон при компиляции "void RangeTree<int>::CreateTree(std::vector<int,std::allocator<_Ty>> *)"
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\rangetree.hpp(159): при компиляции функции-члена "RangeTree<int>::RangeTree(std::vector<int,std::allocator<_Ty>> *,bool (__cdecl *)(const data_type &,const data_type &))" класса шаблон
+                 with
+                 [
+                     _Ty=int
+         ,            data_type=int
+                 ]
+                 c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(169): см. ссылку на создание экземпляров функции шаблон при компиляции "RangeTree<int>::RangeTree(std::vector<int,std::allocator<_Ty>> *,bool (__cdecl *)(const data_type &,const data_type &))"
+                 with
+                 [
+                     _Ty=int
+         ,            data_type=int
+                 ]
+                 c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\suggest.cpp(93): см. ссылку на создание экземпляров класса шаблон при компиляции "RangeTree<int>"
+     1>c:\users\alex\documents\visual studio 2013\projects\mipt.hw\2_sem\task 1\4.suggester\4.suggester\rangetree.hpp(146): warning C4244: аргумент: преобразование "__int64" в "size_t", возможна потеря данных
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Alex\Documents\Visual Studio 2013\Projects\MIPT.HW\2_SEM\Task 1\4.suggester\Debug\4.suggester.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Alex\Documents\Visual Studio 2013\Projects\MIPT.HW\2_SEM\Task 1\4.suggester\Debug\4.suggester.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Alex\Documents\Visual Studio 2013\Projects\MIPT.HW\2_SEM\Task 1\4.suggester\Debug\4.suggester.lib" /MACHINE:X86 Debug\interface.obj
+         Debug\RangeTree.obj
+         Debug\Suggest.obj
+         4.suggester.vcxproj -> C:\Users\Alex\Documents\Visual Studio 2013\Projects\MIPT.HW\2_SEM\Task 1\4.suggester\Debug\4.suggester.exe
+     1>Сборка проекта "C:\Users\Alex\Documents\Visual Studio 2013\Projects\MIPT.HW\2_SEM\Task 1\4.suggester\4.suggester\4.suggester.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:02.02
